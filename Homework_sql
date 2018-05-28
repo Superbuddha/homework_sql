@@ -1,0 +1,12 @@
+1. SELECT * FROM movies;
+2. SELECT name FROM people;
+3. UPDATE people SET name = ('Campbell Miller') WHERE name = ('Cambel Millar');
+4. SELECT name FROM people WHERE name = 'Stephan Constantial';
+5. DELETE FROM movies WHERE title = 'Batman Begins';
+6. INSERT INTO people (name) VALUES ('Colin Bell');
+7. DELETE FROM people WHERE name = 'Alan Russell';
+8. INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
+9. UPDATE  movies SET show_time = '20:00' WHERE title = 'Guardians of the Galaxy';
+
+EXTENSION
+DELETE FROM movies WHERE year = 2017;
